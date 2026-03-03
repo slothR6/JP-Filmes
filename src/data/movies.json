@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Night of the Living Dead",
+    "slug": "night-of-the-living-dead-1968",
+    "year": 1968,
+    "genre": "Horror",
+    "description": "A group of strangers barricade themselves in a rural farmhouse to survive a night of relentless undead attacks.",
+    "posterUrl": "https://archive.org/download/NightOfTheLivingDead-NOTLD/night_of_the_living_dead_1968_01.jpg",
+    "streamUrl": "https://archive.org/download/NightOfTheLivingDead-NOTLD/NightOfTheLivingDead_512kb.mp4",
+    "sourceAttribution": "Internet Archive - NightOfTheLivingDead-NOTLD"
+  },
+  {
+    "title": "His Girl Friday",
+    "slug": "his-girl-friday-1940",
+    "year": 1940,
+    "genre": "Classic",
+    "description": "A fast-talking newspaper editor tries to win back his ex-wife while covering a high-stakes criminal case.",
+    "posterUrl": "https://archive.org/download/his_girl_friday/his_girl_friday_1940.jpg",
+    "streamUrl": "https://archive.org/download/his_girl_friday/his_girl_friday_512kb.mp4",
+    "sourceAttribution": "Internet Archive - his_girl_friday"
+  },
+  {
+    "title": "Plan 9 from Outer Space",
+    "slug": "plan-9-from-outer-space-1959",
+    "year": 1959,
+    "genre": "Sci-Fi",
+    "description": "Extraterrestrials resurrect the dead in a bizarre attempt to force humanity to abandon dangerous weapons.",
+    "posterUrl": "https://archive.org/download/Plan9FromOuterSpace/plan9fromouterspace.jpg",
+    "streamUrl": "https://archive.org/download/Plan9FromOuterSpace/Plan9FromOuterSpace_512kb.mp4",
+    "sourceAttribution": "Internet Archive - Plan9FromOuterSpace"
+  },
+  {
+    "title": "Nosferatu",
+    "slug": "nosferatu-1922",
+    "year": 1922,
+    "genre": "Horror",
+    "description": "An eerie silent-era vampire tale following Count Orlok's shadowy journey into a small German town.",
+    "posterUrl": "https://archive.org/download/Nosferatu1922HD/nosferatu.jpg",
+    "streamUrl": "https://archive.org/download/Nosferatu1922HD/Nosferatu1922HD_512kb.mp4",
+    "sourceAttribution": "Internet Archive - Nosferatu1922HD"
+  },
+  {
+    "title": "D.O.A.",
+    "slug": "doa-1950",
+    "year": 1950,
+    "genre": "Noir",
+    "description": "A poisoned accountant races against time through a labyrinth of deception to solve his own murder.",
+    "posterUrl": "https://archive.org/download/doa_1949/doa_1950.jpg",
+    "streamUrl": "https://archive.org/download/doa_1949/doa_512kb.mp4",
+    "sourceAttribution": "Internet Archive - doa_1949"
+  },
+  {
+    "title": "The Little Shop of Horrors",
+    "slug": "little-shop-of-horrors-1960",
+    "year": 1960,
+    "genre": "Comedy",
+    "description": "A florist's assistant discovers fame and chaos after nurturing a mysterious plant with unusual appetites.",
+    "posterUrl": "https://archive.org/download/little_shop_of_horrors/little_shop_of_horrors.jpg",
+    "streamUrl": "https://archive.org/download/little_shop_of_horrors/little_shop_of_horrors_512kb.mp4",
+    "sourceAttribution": "Internet Archive - little_shop_of_horrors"
+  },
+  {
+    "title": "The Phantom of the Opera",
+    "slug": "phantom-of-the-opera-1925",
+    "year": 1925,
+    "genre": "Classic",
+    "description": "A disfigured musical genius haunts the Paris Opera House, obsessively shaping the career of a young soprano.",
+    "posterUrl": "https://archive.org/download/ThePhantomoftheOpera1925_201907/the_phantom_of_the_opera_1925.jpg",
+    "streamUrl": "https://archive.org/download/ThePhantomoftheOpera1925_201907/ThePhantomoftheOpera1925_512kb.mp4",
+    "sourceAttribution": "Internet Archive - ThePhantomoftheOpera1925_201907"
+  },
+  {
+    "title": "Sherlock Holmes and the Terror by Night",
+    "slug": "terror-by-night-1946",
+    "year": 1946,
+    "genre": "Mystery",
+    "description": "Sherlock Holmes investigates a jewel theft and murder aboard a speeding nighttime train.",
+    "posterUrl": "https://archive.org/download/sherlockholmes_201909/sherlock_holmes_terror_by_night.jpg",
+    "streamUrl": "https://archive.org/download/sherlockholmes_201909/SherlockHolmesTerrorByNight_512kb.mp4",
+    "sourceAttribution": "Internet Archive - sherlockholmes_201909"
+  }
+]
