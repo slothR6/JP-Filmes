@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+* {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+html {
+  min-height: 100%;
+  background:
+    radial-gradient(circle at top, rgba(245, 183, 0, 0.16), transparent 34%),
+    radial-gradient(circle at 20% 18%, rgba(76, 201, 240, 0.12), transparent 24%),
+    linear-gradient(180deg, #09121a 0%, #060b11 100%);
+}
+
+body {
+  min-height: 100vh;
+  background: transparent;
+  color: #ecf4ff;
+  font-family: 'Segoe UI Variable', 'Avenir Next', 'Trebuchet MS', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Iowan Old Style', 'Palatino Linotype', 'Book Antiqua', serif;
+  letter-spacing: -0.03em;
+}
+
+a,
+button,
+input,
+select,
+textarea {
+  transition:
+    color 180ms ease,
+    background-color 180ms ease,
+    border-color 180ms ease,
+    transform 180ms ease,
+    opacity 180ms ease;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(245, 183, 0, 0.9);
+}
+
+::selection {
+  background: rgba(245, 183, 0, 0.28);
+  color: #fff;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.18);
+}
+
+.orb {
+  position: absolute;
+  border-radius: 999px;
+  filter: blur(10px);
+  opacity: 0.55;
+  animation: drift 18s ease-in-out infinite;
+}
+
+.orb-one {
+  top: 7%;
+  right: -6rem;
+  height: 19rem;
+  width: 19rem;
+  background: radial-gradient(circle, rgba(255, 107, 53, 0.5), transparent 68%);
+}
+
+.orb-two {
+  bottom: 8%;
+  left: -5rem;
+  height: 18rem;
+  width: 18rem;
+  background: radial-gradient(circle, rgba(76, 201, 240, 0.38), transparent 70%);
+  animation-delay: 2s;
+}
+
+.orb-three {
+  top: 40%;
+  right: 24%;
+  height: 12rem;
+  width: 12rem;
+  background: radial-gradient(circle, rgba(245, 183, 0, 0.34), transparent 70%);
+  animation-delay: 4s;
+}
+
+@keyframes drift {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  50% {
+    transform: translate3d(0, -18px, 0) scale(1.04);
+  }
+}
