@@ -129,7 +129,8 @@ async function fetchTmdb<T>(pathname: string, options: FetchTmdbOptions = {}): P
     };
   }
 
-  const url = new URL(pathname, TMDB_API_BASE_URL);
+  const normalizedPathname = pathname.replace(/^\/+/, '');
+  const url = new URL(normalizedPathname, `${TMDB_API_BASE_URL}/`);
   const query = options.query ?? {};
 
   for (const [key, value] of Object.entries(query)) {
